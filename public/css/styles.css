@@ -1,0 +1,203 @@
+
+
+body{
+
+	background: rgba(255,243,201,0.2);
+	font-family: 'Pragati Narrow', sans-serif;
+	padding-top: 100px;
+}
+
+.jumbotron{
+	color:#2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar {
+	background-color: #292c2f;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.centercontact{
+	margin-top: 5%;
+	text-align: center;
+}
+.apartamentos{
+	text-align: center;
+}
+.titulo{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+img{
+
+	margin:auto;
+}
+
+h1{
+	
+	text-align: center;
+	
+	padding-bottom: 5px;
+	font-family: 'Pragati Narrow', sans-serif;
+	font-weight: 600;
+	text-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+}
+
+#alrededoresHeader{
+	text-align: center;
+}
+
+#textoNav li{
+	font-weight: bold;
+	text-decoration: blink;
+}
+
+
+#introduccion{
+	margin-top: 30px;
+	padding-top: 50px;
+
+}
+
+#block{
+	display: block;
+
+}
+.glyphicon {
+    font-size: 40px;
+
+}
+
+/***********************HR***************************/
+hr {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+}
+
+/*******************GOOGLE MAPS***************************/
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    border: 1px solid black;
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*Slide fot hostel/apartments*/
+.photo img {
+
+    width: 100%; /*set the width or max-width*/
+    height: 600px; /*this makes sure to maintain the aspect ratio*/
+} 
+
+
+/**************Footer****************************/
+
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
