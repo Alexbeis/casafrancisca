@@ -18,7 +18,9 @@
 </head>
 <body>
 	<header>
-	<img class="fotoheader" src="img/casa_francisca_prova02.png">
+	<div class="container">
+		<img class="fotoheader" src="img/casa_francisca_prova02.png">
+	</div>
 		<!-- Begin navbar -->
 		<nav class ="navbar navbar-inverse "> 
 			<div class="container">
@@ -46,15 +48,16 @@
 				</div>	
 			</div>	
 		</nav> <!-- End navbar -->	
-	</header>
+	</header> <!-- End header-->
 	
 
 	<!-- Begin Foto Torres del Obsipo -->
 	<div class="container" id="intro">
 		<div class="jumbotron">
-			<h1>Hostal Casa Francisca</h1>
+			<!-- <h1>Hostal Casa Francisca</h1> -->
+			<!-- <hr></hr> -->
+			<p id="frase"><em>"Un lugar donde la magia estelar envolverá tu ser" <br>(Jose Antonio Solano)</em></p>
 			<hr></hr>
-			<p><em>"Un lugar donde la magia estelar envolverá tu ser" (Jose Antonio Solano)</em></p>
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				 	<!-- Indicators -->
 				 	<ol class="carousel-indicators">
@@ -69,9 +72,9 @@
 					     	<img src="img/apartam 01.jpg" alt="Apartamento">
 					      	<div class="carousel-caption">
 					        Torres del Obispo
-					      	</div>
-					    </div>
-
+					     	</div>
+						</div>
+					</div>
 					<!-- Controls -->
 					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 						<span class="icon-prev" aria-hidden="true"></span>
@@ -82,27 +85,40 @@
 					    <span class="sr-only">Next</span>
 					</a>
 				</div>
-
-			<p id="introduccion">
-				<em>"La chent d'iste lugar diz Torres quan charra con chent d'a redolada, pa diferenciar-la de Torre d'Esera y Torrobato; ye a sola Torres (en plural) en a Ribagorza".</em>
-				<p> 
-				Pueblo de 180 habitantes (aprox.)(2004), antiguo ayuntamiento, integrado al municipio de Graus, desde la última reforma administrativa.
-				</p>
-				<p>
-				Situado a 542 m. de altitud, cuenta con servicio médico, teléfono público,Bar/restaurante, hostal, apartamentos rurales, piscinas municipales y campo de futbol sala exterior.
-				</p>
-				<p>
-				Se encuentra junto a la carretera comarcal N-123 Graus-Benabarre, distande de ambos 9 Km.
-				</p>
-				<p>
-				Le circunda una fértil llanura, dedicada básicamente a la producción de cereales, habiéndose abandonado el cultivo del almendro, el olivo y la vid, que había propiciado al establecimiento de fábricas de aceite y aguardiente, contándose de éstas últimas un número de 7 en el siglo pasado.
-				</p>
-				<p>
-				Su estructura urbana se ordena en torno a dos plazas que conservan soportales y edificios que hablan del antiguo esplendor de este lugar.
-				</p>
-				<p>
-				En la Plaza de la Iglesia se ha restaurado con acierto un noble dificio, testigo de la excelente arquitectura popular de esta Villa que contaba con más de 700 habitantes en los años 30. Buen número de familias que emigraron, han restaurado o adquirido viviendas para utilización vacacional, lo que hace que en la época estival el pueblo cambie al multiplicar su población.
-				</p>
+			
+			
+				<div class="row">
+					<div class="col-md-6 col-xs-12">
+						<p id="introduccion">
+							<p>
+							<em>"La chent d'iste lugar diz Torres quan charra con chent d'a redolada, pa diferenciar-la de Torre d'Esera y Torrobato; ye a sola Torres (en plural) en a Ribagorza".</em>
+							</p> 
+							<p>
+							Pueblo de 180 habitantes (aprox.)(2004), antiguo ayuntamiento, integrado al municipio de Graus, desde la última reforma administrativa.
+							</p>
+							<p>
+							Situado a 542 m. de altitud, cuenta con servicio médico, teléfono público,Bar/restaurante, hostal, apartamentos rurales, piscinas municipales y campo de futbol sala exterior.
+							</p>
+							<p>
+							Se encuentra junto a la carretera comarcal N-123 Graus-Benabarre, distande de ambos 9 Km.
+							</p>
+						</p>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<p id="introduccion">
+							<p>
+							Le circunda una fértil llanura, dedicada básicamente a la producción de cereales, habiéndose abandonado el cultivo del almendro, el olivo y la vid, que había propiciado al establecimiento de fábricas de aceite y aguardiente, contándose de éstas últimas un número de 7 en el siglo pasado.
+							</p>
+							<p>
+							Su estructura urbana se ordena en torno a dos plazas que conservan soportales y edificios que hablan del antiguo esplendor de este lugar.
+							</p>
+							<p>
+							En la Plaza de la Iglesia se ha restaurado con acierto un noble dificio, testigo de la excelente arquitectura popular de esta Villa que contaba con más de 700 habitantes en los años 30. Buen número de familias que emigraron, han restaurado o adquirido viviendas para utilización vacacional, lo que hace que en la época estival el pueblo cambie al multiplicar su población.
+							</p>
+						</p>
+					</div>
+				</div>
+				
 			</p>	
 		</div> <!--End jumbotron Intro -->
 	</div> <!--End Container intro -->
@@ -434,7 +450,7 @@
 	<footer class="footer-distributed">
 
 			<div class="footer-right">
-				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="https://es-es.facebook.com/hostalcasafrancisca/" target="_blank"><i class="fa fa-facebook"></i></a>
 				<a href="#"><i class="fa fa-twitter"></i></a>				
 			</div>
 			<div class="footer-left">
